@@ -15,13 +15,13 @@ bool Saturn::getlife()
 }
 
 
-bool Saturn::setstamina();
+bool Saturn::setstamina()
 {
     this->stamina = 100;
 
     return TRUE;
 }
-bool Saturn::getstamina();
+bool Saturn::getstamina()
 {
     cout << this->stamina << endl;
 

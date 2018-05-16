@@ -1,4 +1,8 @@
-
+#include "Saturn.h"
 using namespace std;
-void Story::introduction(){
+
+class Story{
+	public:
+		void introduction(void);
+
 };
