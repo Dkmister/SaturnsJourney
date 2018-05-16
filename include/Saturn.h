@@ -1,5 +1,8 @@
-#include<iostream>
-#include<list>
+#include <iostream>
+#include <list>
+#include <cstdlib>
+#include <iostream>
+#include <string>
 
 #define SUNGLASSES 0
 #define HAMMER 1
@@ -19,7 +22,4 @@ class Saturn {
         bool setstamina();
         bool getstamina();
         bool generatebackpack();
-
-
-
-}
+};
