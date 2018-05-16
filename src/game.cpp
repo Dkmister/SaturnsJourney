@@ -1,5 +1,5 @@
-#include "../include/Story.h"
-
+#include "./include/Story.h"
+#include "Saturn.h"
 int main()
 {
     Saturn* player = new Saturn();
