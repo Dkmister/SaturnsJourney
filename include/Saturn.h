@@ -22,4 +22,5 @@ class Saturn {
         bool setstamina();
         bool getstamina();
         bool generatebackpack();
+        bool init();
 };
