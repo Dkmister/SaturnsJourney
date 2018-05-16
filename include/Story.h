@@ -10,5 +10,6 @@ class Story{
             getchar();
             cout << "So he reaches his backpack, drinking the last bottle of water that he had." << endl;
             getchar();
+            cout << "He thought it was his end. Until he saw a mirror. It was a strange mirror in the sands."
         }
 };
