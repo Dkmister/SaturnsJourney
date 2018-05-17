@@ -1,5 +1,5 @@
 #include "../include/Story.h"
-#include <stdio.h>
+#include <stdio>
 #include <iostream>
 
 void Story::introduction( )
@@ -10,7 +10,16 @@ void Story::introduction( )
             getchar();
             cout << "So he reaches his backpack, drinking the last bottle of water that he had." << endl;
             getchar();
-            cout << "He thought it was his end. Until he saw a mirror. It was a strange mirror in the sands." <<endl;
+            cout << "He thought it was his end. Until he saw a mirror. It was a strange mirror in the sands." << endl;
             getchar();
+            cout << "Mirror: Come in, you can have whatever you want." << endl;
+            getchar();
+            cout << "The drifter thought of all his troubles. All his past, all delusions that he had. Maybe he got the chance to change." << endl;
+            getchar();
+            cout << "Drifter: I know this voice. It sounds familiar." <<endl;
+            getchar();
+            cout << "So he decided to enter the mirror. Even though he did not know what was waiting him there."
+            getchar();
+            cout << "END OF INTRODUCTION" << endl;
 }
 
