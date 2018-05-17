@@ -1,5 +1,5 @@
 #include "../include/Story.h"
-#include <stdio>
+#include <cstdio>
 #include <iostream>
 
 void Story::introduction( )
@@ -18,7 +18,7 @@ void Story::introduction( )
             getchar();
             cout << "Drifter: I know this voice. It sounds familiar." <<endl;
             getchar();
-            cout << "So he decided to enter the mirror. Even though he did not know what was waiting him there."
+            cout << "So he decided to enter the mirror. Even though he did not know what was waiting him there." << endl;
             getchar();
             cout << "END OF INTRODUCTION" << endl;
 }

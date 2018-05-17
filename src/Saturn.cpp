@@ -4,14 +4,14 @@ bool Saturn::setlife()
 {
     this->life = 100;
 
-    return TRUE;
+    return true;
 }
 
 bool Saturn::getlife()
 {
     cout << this->life << endl;
 
-    return TRUE;
+    return true;
 }
 
 
@@ -19,27 +19,27 @@ bool Saturn::setstamina()
 {
     this->stamina = 100;
 
-    return TRUE;
+    return true;
 }
 bool Saturn::getstamina()
 {
     cout << this->stamina << endl;
 
-    return TRUE;
+    return true;
 }
 bool Saturn::generatebackpack()
 {   for(int i = 0 ; i<=5; ++i)
         {
-        this->backpack.push_back(i)
+        this->backpack[i] = i;
         }
     if(this->backpack == NULL)
-        return FALSE;
+        return false;
     else
-        return TRUE;
+        return true;
 }
-bool Saturn::Saturn()
+Saturn::Saturn()
 {
    life = 100;
    stamina = 100;
-   return TRUE;
+   
 }
