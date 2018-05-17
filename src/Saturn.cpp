@@ -37,9 +37,9 @@ bool Saturn::generatebackpack()
     else
         return TRUE;
 }
-bool Saturn::init()
+bool Saturn::Saturn()
 {
-  Saturn::generatebackpack();
-  Saturn::setlife();
-  Saturn::setstamina();
+   life = 100;
+   stamina = 100;
+   return TRUE;
 }
